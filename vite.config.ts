@@ -11,7 +11,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:8000',
+        target: 'http://plumber-api-production-d802.up.railway.app',
         changeOrigin: true,
       }
     }
