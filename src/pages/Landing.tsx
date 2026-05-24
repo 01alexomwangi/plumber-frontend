@@ -137,7 +137,7 @@ export default function Landing() {
                             Trusted Plumbing Expert in Nairobi
                         </h2>
                         <p className="text-gray-500 mb-4 leading-relaxed">
-                            With over 10 years of experience, we have built a reputation for quality
+                            With over 5 years of experience, we have built a reputation for quality
                             workmanship and honest service. No job is too big or too small.
                         </p>
                         <p className="text-gray-500 mb-6 leading-relaxed">
@@ -164,7 +164,6 @@ export default function Landing() {
                                 'Licensed and insured professionals',
                                 'Transparent pricing — no hidden costs',
                                 'Same day service available',
-                                '1 year warranty on all repairs',
                                 'Clean and tidy workmanship',
                                 '24/7 emergency response',
                             ].map(item => (
@@ -298,7 +297,7 @@ export default function Landing() {
                         <div className="w-6 h-6 bg-blue-600 rounded-full"></div>
                         <span className="text-white font-semibold">Twendy Solutions</span>
                     </div>
-                    <p className="text-sm">© 2026 ProPlumber. All rights reserved.</p>
+                    <p className="text-sm">© 2026 Twendy solutions. All rights reserved.</p>
                     <p className="text-sm">Nairobi, Kenya · Available 24/7</p>
                 </div>
             </footer>
