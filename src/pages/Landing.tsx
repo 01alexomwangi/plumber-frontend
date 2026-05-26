@@ -146,7 +146,7 @@ export default function Landing() {
                         </p>
                         <div className="grid grid-cols-3 gap-4">
                             {[
-                                { number: '10+', label: 'Years Experience' },
+                                { number: '5+', label: 'Years Experience' },
                                 { number: '500+', label: 'Jobs Completed' },
                                 { number: '24/7', label: 'Emergency Service' },
                             ].map(stat => (
@@ -161,11 +161,20 @@ export default function Landing() {
                         <h3 className="text-xl font-bold mb-4">Why Choose Us?</h3>
                         <ul className="space-y-3">
                             {[
-                                'Licensed and insured professionals',
+                                
                                 'Transparent pricing — no hidden costs',
                                 'Same day service available',
                                 'Clean and tidy workmanship',
                                 '24/7 emergency response',
+                                'Turning rough work into remarkable results',
+                                'Strong foundations,stunning finishes',
+                                'Solutions built to last',
+                                'Quality that speaks louder than words',
+                                'Precision. Passion .Perfection.'
+                                
+
+                                
+
                             ].map(item => (
                                 <li key={item} className="flex items-start gap-3 text-sm">
                                     <span className="text-blue-200 mt-0.5">✓</span>
